@@ -21,6 +21,7 @@ function FeedbackForm() {
       setRating(feedbackEdit.item.rating);
     }
   }, [feedbackEdit]);
+  
   const handleTextChange = (e) => {
     if (text === "") {
       setBtnDisabled(true);
